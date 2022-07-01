@@ -7,13 +7,13 @@ export const Footer = () => {
     return (
         <Flex h={'160px'} bg={'#1a202c'} color={'white'} justify={'center'} mt={20}>
             <VStack>
-                <Text my={'26px'}>Made with ❤️ by Murali M V</Text>
+                <Text my={'26px'}>Made with ❤️ By VADIVELAN S S</Text>
                 <HStack>
                     <Button variant={'solid'} bg={'#0863be'} size='sm' leftIcon={<FaLinkedin />}>
-                        <Link _hover={{ 'textDecoration': 'none' }} target={"_blank"} href={"https://www.linkedin.com/in/murali-m-v/"}>LinkedIn</Link>
+                        <Link _hover={{ 'textDecoration': 'none' }} target={"_blank"} href={"https://www.linkedin.com/in/vadivelan-velu/"}>LinkedIn</Link>
                     </Button>
                     <Button _hover={{ 'bg': 'red.500' }} variant={'solid'} bg={'red'} size='sm' leftIcon={<FaGithub />}>
-                        <Link _hover={{ 'textDecoration': 'none' }} target={"_blank"} href={"https://github.com/murali0101/"}>GitHub</Link>
+                        <Link _hover={{ 'textDecoration': 'none' }} target={"_blank"} href={"https://github.com/vadivelan1998/"}>GitHub</Link>
                     </Button>
                 </HStack>
             </VStack>

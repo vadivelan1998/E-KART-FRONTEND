@@ -8,10 +8,10 @@ import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./redux/store/store";
 import axios from "axios";
 import { theme } from "./theme";
-
-axios.defaults.baseURL = "http://localhost:5600/";
-
 import reportWebVitals from "./reportWebVitals";
+axios.defaults.baseURL = "https://e-store-clone.herokuapp.com/";
+
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
