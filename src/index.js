@@ -9,7 +9,7 @@ import { store } from "./redux/store/store";
 import axios from "axios";
 import { theme } from "./theme";
 import reportWebVitals from "./reportWebVitals";
-axios.defaults.baseURL = "https://e-store-clone.herokuapp.com/";
+axios.defaults.baseURL = "https://velu-kart-backend.onrender.com/";
 
 
 
